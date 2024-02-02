@@ -1,0 +1,30 @@
+.button {
+    width: 210px;
+    height: 100px;
+    -unity-font-style: bold-and-italic;
+    font-size: 44px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 16px;
+    border-left-width: 16px;
+    border-top-width: 0;
+    border-bottom-width: 11px;
+    color: rgb(250, 181, 8);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    letter-spacing: 0;
+    text-overflow: clip;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    background-color: rgba(51, 48, 48, 0.95);
+    border-left-color: rgb(72, 72, 72);
+    border-right-color: rgb(72, 72, 72);
+    border-top-color: rgb(72, 72, 72);
+    border-bottom-color: rgb(72, 72, 72);
+}
+
+.button:hovering {
+    background-color: rgba(255, 0, 124, 0);
+    transition-duration: 0s;
+}
